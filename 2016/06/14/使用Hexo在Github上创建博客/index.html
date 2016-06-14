@@ -3,17 +3,48 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: Quasar Fiber | Programming Diary</title>
+  <title>使用Hexo在Github上创建博客 | Programming Diary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Programming Diary">
-<meta property="og:url" content="http://ianynchen.github.io/tags/Quasar-Fiber/index.html">
+  <meta name="description" content="#安装
+##环境配置
+
+安装Node.js
+安装git
+创建github账号
+
+##安装Hexo输入：    npm install -g hexo-cli
+##初始化博客文件夹创建一个文件夹，如blog，然后：    cd blog    hexo init    npm install
+在这之后，可以通过本地服务器查看博客网站的内容：    hexo server
+根据hexo提示的网址从浏览">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo在Github上创建博客">
+<meta property="og:url" content="http://ianynchen.github.io/2016/06/14/使用Hexo在Github上创建博客/index.html">
 <meta property="og:site_name" content="Programming Diary">
-<meta property="og:description">
+<meta property="og:description" content="#安装
+##环境配置
+
+安装Node.js
+安装git
+创建github账号
+
+##安装Hexo输入：    npm install -g hexo-cli
+##初始化博客文件夹创建一个文件夹，如blog，然后：    cd blog    hexo init    npm install
+在这之后，可以通过本地服务器查看博客网站的内容：    hexo server
+根据hexo提示的网址从浏览">
+<meta property="og:updated_time" content="2016-06-14T03:47:16.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Programming Diary">
-<meta name="twitter:description">
+<meta name="twitter:title" content="使用Hexo在Github上创建博客">
+<meta name="twitter:description" content="#安装
+##环境配置
+
+安装Node.js
+安装git
+创建github账号
+
+##安装Hexo输入：    npm install -g hexo-cli
+##初始化博客文件夹创建一个文件夹，如blog，然后：    cd blog    hexo init    npm install
+在这之后，可以通过本地服务器查看博客网站的内容：    hexo server
+根据hexo提示的网址从浏览">
   
     <link rel="alternate" href="/atom.xml" title="Programming Diary" type="application/atom+xml">
   
@@ -66,39 +97,79 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/06/14/Quasar-Thread-Management/" class="archive-article-date">
-  <time datetime="2016-06-14T01:51:16.000Z" itemprop="datePublished">6月 14</time>
+        <section id="main"><article id="post-使用Hexo在Github上创建博客" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/06/14/使用Hexo在Github上创建博客/" class="article-date">
+  <time datetime="2016-06-14T02:56:05.000Z" itemprop="datePublished">2016-06-14</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Misc/">Misc</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/06/14/Quasar-Thread-Management/">Quasar Thread Management</a>
+    <h1 class="article-title" itemprop="name">
+      使用Hexo在Github上创建博客
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#安装</p>
+<p>##环境配置</p>
+<ul>
+<li>安装<a href="http://nodejs.org/" title="Node.js" target="_blank" rel="external">Node.js</a></li>
+<li>安装<a href="http://git-scm.com/" title="git" target="_blank" rel="external">git</a></li>
+<li>创建<a href="http://www.github.com" title="Github" target="_blank" rel="external">github</a>账号</li>
+</ul>
+<p>##安装Hexo<br>输入：<br>    npm install -g hexo-cli</p>
+<p>##初始化博客文件夹<br>创建一个文件夹，如blog，然后：<br>    cd blog<br>    hexo init<br>    npm install</p>
+<p>在这之后，可以通过本地服务器查看博客网站的内容：<br>    hexo server</p>
+<p>根据hexo提示的网址从浏览器进入，默认会增加一篇hello world，介绍了hexo的基本用法。</p>
+<p>##基本命令</p>
+<p>###新建文章<br>    hexo new <article title=""><br>创建新文章，<article title="">为文章标题，如果标题中有空格，用””双引号括住标题。</article></article></p>
+<p>创建之后，可执行以下命令：<br>    hexo generate // 生成静态网页以及css、js文件，存放于public目录中<br>    hexo server   // 本地服务器查看<br>    hexo deploy   // 部署到远端服务器，配置github之前不要使用</p>
+<p>#Github配置</p>
+<p>##Github Repository<br>创建一个repository，名称应该是<github-username>.github.io，其中<github-username>是你的github账号名。</github-username></github-username></p>
+<p>##Hexo配置<br>前面创建的Hexo博客目录中，有一个_config.yml文件，需要对其进行编辑：<br>    deploy:<br>      type: git<br>      respository: <a href="https://github.com/" target="_blank" rel="external">https://github.com/</a><github-username>/<github-username>.github.io.git<br>      branch: master</github-username></github-username></p>
+<p>Hexo目前支持的类型是git，不再是github，分支设置为master。这样配置之后，上传完成以后，你的网站就可以通过http://<github-username>.github.io进行访问了。</github-username></p>
+<p>同时要修改一下_config.yml文件中的url部分，改为你的网站网址。</p>
+<p>其它配置可以参阅Hexo配置文档。</p>
+<p>每次创建网页之后，执行：<br>    hexo generate<br>    hexo deploy</p>
+<p>完成必要的生成和发布。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ianynchen.github.io/2016/06/14/使用Hexo在Github上创建博客/" data-id="cipewqyt700077vyj2kakp65a" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github/">Github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Manual/">Manual</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/06/14/Spring-Boot-Series-1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Spring Boot Series 1</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
